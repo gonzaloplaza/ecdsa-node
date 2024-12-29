@@ -1,0 +1,12 @@
+{
+  "restartable": "rs",
+  "ignore": [".git", "node_modules/", "dist/", "coverage/", "etc/"],
+  "verbose": true,
+  "delay": 500,
+  "watch": ["src/"],
+  "exec": "ts-node index.ts",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": ".ts"
+}
